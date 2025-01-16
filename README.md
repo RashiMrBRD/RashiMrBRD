@@ -72,9 +72,8 @@ me.say_hi()
 
 <div align="center">
   
-[![GitHub Snake Light](https://raw.githubusercontent.com/RashiMrBRD/RashiMrBRD/output/github-contribution-grid-snake.svg)](https://github.com/RashiMrBRD#gh-light-mode-only)
-[![GitHub Snake dark](https://raw.githubusercontent.com/RashiMrBRD/RashiMrBRD/output/github-contribution-grid-snake-dark.svg)](https://github.com/RashiMrBRD#gh-dark-mode-only)
-
+![Snake animation](https://github.com/RashiMrBRD/RashiMrBRD/blob/output/github-contribution-grid-snake.svg)
+  
 </div>
 
 ## 📫 Connect with Me
