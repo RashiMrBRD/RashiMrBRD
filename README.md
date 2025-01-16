@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Rashi (@RashiMrBRD)
+# 👋 Hi, I'm Brian (@RashiMrBRD)
 
 <div align="center">
   
