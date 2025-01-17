@@ -9,21 +9,33 @@ jobs:
   update-badge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
       
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
+      - name: Debug Directory Structure
+        run: |
+          pwd
+          ls -la
+          echo "Repository root:"
+          ls -la $GITHUB_WORKSPACE
+          echo "Scripts directory:"
+          ls -la $GITHUB_WORKSPACE/.github/scripts/
+
       - name: Update Now Playing
         run: |
+          cd $GITHUB_WORKSPACE
           python .github/scripts/update_music.py
         
       - name: Commit and Push
         run: |
-          git config --global user.name 'GitHub Action'
+          git config --global user.name 'GitHub Action Bot'
           git config --global user.email 'action@github.com'
           git add profile.md
-          git commit -m "Update now playing badge" || exit 0
-          git push
+          git diff --staged --quiet || (git commit -m "🎵 Update now playing badge" && git push)
