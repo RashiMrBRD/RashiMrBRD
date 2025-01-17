@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Developer%20Focused&fontSize=50&fontAlignY=35&desc=Hardware%20|%20Software%20|%20Automation%20Enthusiast&descAlignY=52&animation=fadeIn&fontColor=ffffff&stroke=2E9EF7&strokeWidth=2)](https://github.com/RashiMrBRD)
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Lazy%20but%20Efficient&fontSize=50&fontAlignY=35&desc=Hardware%20|%20Software%20|%20Automation%20Enthusiast&descAlignY=52&animation=fadeIn&fontColor=ffffff&stroke=2E9EF7&strokeWidth=2)](https://github.com/RashiMrBRD)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Caveat&weight=700&size=24&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Turning+Coffee+into+Code;Making+Hardware+Dance;Automating+the+Boring+Stuff;Building+Cool+Things;Finding+Elegant+Solutions)](https://github.com/RashiMrBRD)
 
@@ -209,48 +209,32 @@ const Brian: SystemEngineer = {
 
 <div align="center">
 
-<details open><summary>💻 Developer's Music Stack</summary>
+<details open><summary>🎵 My Music Vibes</summary>
 
 <div align="center">
-<pre style="background:#2E3440;color:#ECEFF4;padding:24px;border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,0.3);font-family:'Caveat','Indie Flower',cursive;font-size:16px;line-height:1.4;margin:16px;text-shadow:0 0 1px rgba(236,239,244,0.4);min-width:320px;max-width:100%;width:95%;overflow-x:auto;white-space:pre-wrap;word-wrap:break-word">
+<pre style="background:#2E3440;color:#ECEFF4;padding:32px;border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,0.3);font-family:'Caveat','Indie Flower',cursive;font-size:18px;line-height:1.6;margin:32px;text-shadow:0 0 1px rgba(236,239,244,0.4);min-width:800px;max-width:1200px;width:80%">
 <code>
-╭───────────── <span style="color:#88C0D0">DEV SESSION</span> ─────────────╮
-<span style="color:#81A1C1">Now Playing:</span> 🎧 "Blue Bird" (Naruto)
-<span style="color:#81A1C1">Mood:</span> Epic & Energetic | ⏱️ 3:45
-╰───────────────────────────────────────╯
+╭──────────────────────────── <span style="color:#88C0D0">Current Session</span> ────────────────────────────╮
+│ <span style="color:#81A1C1">Now Playing:</span> 🎧 "Blue Bird" (Naruto) | <span style="color:#81A1C1">Mood:</span> Epic & Energetic | ⏱️ 3:45  │
+╰──────────────────────────────────────────────────────────────────────────╯
 
-<span style="color:#81A1C1">Coding Soundtracks:</span>
-╭─ Anime OST [███████████] 75% ─╮
-│  Debug Mode Activated! ⚡     │
-╰───────────────────────────────╯
-╭─ Game OST [████████████] 85% ─╮
-│  Maximum Focus Engaged 🎯     │
-╰───────────────────────────────╯
+<span style="color:#81A1C1">Top Active Genres:</span>
+╭─ Anime OST [███████████] 75% ─╮ ╭─ Game OST [████████████] 85% ─╮
+│  Perfect for Debug Sessions!   │ │  Maximum Focus Mode         │
+╰───────────────────────────────╯ ╰───────────────────────────────╯
 
-<span style="color:#81A1C1">IDE Status:</span> [<span style="color:#A3BE8C">ACTIVE</span>]
-Productivity Mix v2.5 | 42 tracks
-Focus: [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿] 100%
+<span style="color:#81A1C1">Current Coding Session:</span> [<span style="color:#A3BE8C">ACTIVE</span>] Productivity Mix v2.5 | 42 tracks | Mood: [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿] 100%
 
-╭───────────── <span style="color:#88C0D0">STACK PREFERENCES</span> ────────────╮
-<span style="color:#81A1C1">Core Stack:</span> BTS, Eraserheads, YOASOBI
-<span style="color:#81A1C1">Runtime:</span> High Energy & Melodic
-╰────────────────────────────────────────────╯
+╭──────────────────────────── <span style="color:#88C0D0">Music Preferences</span> ───────────────────────────╮
+│ <span style="color:#81A1C1">Favorite Artists:</span> BTS, Eraserheads, YOASOBI | <span style="color:#81A1C1">Style:</span> High Energy & Melodic   │
+╰──────────────────────────────────────────────────────────────────────────╯
 
-<span style="color:#81A1C1">Dependencies:</span>
-╭─ K-Pop [████████] 55% ─╮
-   System.Boost() 🚀     
-╰────────────────────────╯
-╭─ OPM [██████] 40% ─╮
-   Culture.Play() 🌏  
-╰────────────────────╯
-╭─ Lo-Fi [███████] 45% ─╮
-   Focus.Deep() 💭      
-╰───────────────────────╯
+<span style="color:#81A1C1">Genre Breakdown:</span>
+╭─ K-Pop [████████] 55% ─╮ ╭─ OPM [██████] 40% ─╮ ╭─ Lo-Fi [███████] 45% ─╮
+│  Energy Boost! 🚀      │ │  Cultural Vibes 🌏  │ │  Deep Focus 💭        │
+╰────────────────────────╯ ╰───────────────────╯ ╰────────────────────────╯
 
-<span style="color:#81A1C1">Runtime Metrics:</span>
-247 Commits this month
-Peak Coding: 2AM-4AM
-Main Branch: Epic & Energetic
+<span style="color:#81A1C1">Playlist Stats:</span> 247 Plays this month | Peak Hours: 2AM-4AM | Fav Mood: Epic & Energetic
 </code>
 </pre>
 </div>
