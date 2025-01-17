@@ -1,0 +1,23 @@
+{
+  "anime": [
+    {"title": "Blue Bird", "artist": "Naruto Shippuden"},
+    {"title": "Gurenge", "artist": "Demon Slayer"},
+    {"title": "Unravel", "artist": "Tokyo Ghoul"},
+    {"title": "Again", "artist": "Fullmetal Alchemist"},
+    {"title": "The Hero", "artist": "One Punch Man"}
+  ],
+  "kpop": [
+    {"title": "Spring Day", "artist": "BTS"},
+    {"title": "Boy With Luv", "artist": "BTS"},
+    {"title": "Dynamite", "artist": "BTS"},
+    {"title": "Butter", "artist": "BTS"},
+    {"title": "Permission to Dance", "artist": "BTS"}
+  ],
+  "opm": [
+    {"title": "Ang Huling El Bimbo", "artist": "Eraserheads"},
+    {"title": "Alapaap", "artist": "Eraserheads"},
+    {"title": "With A Smile", "artist": "Eraserheads"},
+    {"title": "Pare Ko", "artist": "Eraserheads"},
+    {"title": "Magasin", "artist": "Eraserheads"}
+  ]
+}
