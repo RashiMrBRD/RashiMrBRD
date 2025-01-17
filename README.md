@@ -212,29 +212,45 @@ const Brian: SystemEngineer = {
 <details open><summary>💻 Developer's Music Stack</summary>
 
 <div align="center">
-<pre style="background:#2E3440;color:#ECEFF4;padding:32px;border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,0.3);font-family:'Caveat','Indie Flower',cursive;font-size:18px;line-height:1.6;margin:32px;text-shadow:0 0 1px rgba(236,239,244,0.4);min-width:800px;max-width:1200px;width:80%">
+<pre style="background:#2E3440;color:#ECEFF4;padding:24px;border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,0.3);font-family:'Caveat','Indie Flower',cursive;font-size:16px;line-height:1.4;margin:16px;text-shadow:0 0 1px rgba(236,239,244,0.4);min-width:320px;max-width:100%;width:95%;overflow-x:auto;white-space:pre-wrap;word-wrap:break-word">
 <code>
-╭──────────────────────────── <span style="color:#88C0D0">DEV SESSION</span> ────────────────────────────╮
-<span style="color:#81A1C1">Now Playing:</span> 🎧 "Blue Bird" (Naruto) | <span style="color:#81A1C1">Mood:</span> Epic & Energetic | ⏱️ 3:45
-╰─────────────────────────────────────────────────────────────────────╯
+╭───────────── <span style="color:#88C0D0">DEV SESSION</span> ─────────────╮
+<span style="color:#81A1C1">Now Playing:</span> 🎧 "Blue Bird" (Naruto)
+<span style="color:#81A1C1">Mood:</span> Epic & Energetic | ⏱️ 3:45
+╰───────────────────────────────────────╯
 
 <span style="color:#81A1C1">Coding Soundtracks:</span>
-╭─ Anime OST [███████████] 75% ─╮ ╭─ Game OST [████████████] 85% ─╮
-│  Debug Mode Activated! ⚡     │ │  Maximum Focus Engaged 🎯     │
-╰───────────────────────────────╯ ╰───────────────────────────────╯
+╭─ Anime OST [███████████] 75% ─╮
+│  Debug Mode Activated! ⚡     │
+╰───────────────────────────────╯
+╭─ Game OST [████████████] 85% ─╮
+│  Maximum Focus Engaged 🎯     │
+╰───────────────────────────────╯
 
-<span style="color:#81A1C1">IDE Status:</span> [<span style="color:#A3BE8C">ACTIVE</span>] Productivity Mix v2.5 | 42 tracks | Focus: [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿] 100%
+<span style="color:#81A1C1">IDE Status:</span> [<span style="color:#A3BE8C">ACTIVE</span>]
+Productivity Mix v2.5 | 42 tracks
+Focus: [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿] 100%
 
-╭──────────────────────────── <span style="color:#88C0D0">STACK PREFERENCES</span> ───────────────────────────╮
- <span style="color:#81A1C1">Core Stack:</span> BTS, Eraserheads, YOASOBI | <span style="color:#81A1C1">Runtime:</span> High Energy & Melodic      
-╰──────────────────────────────────────────────────────────────────────────╯
+╭───────────── <span style="color:#88C0D0">STACK PREFERENCES</span> ────────────╮
+<span style="color:#81A1C1">Core Stack:</span> BTS, Eraserheads, YOASOBI
+<span style="color:#81A1C1">Runtime:</span> High Energy & Melodic
+╰────────────────────────────────────────────╯
 
 <span style="color:#81A1C1">Dependencies:</span>
-╭─ K-Pop [████████] 55% ─╮ ╭─ OPM [██████] 40% ─╮ ╭─ Lo-Fi [███████] 45% ─╮
-   System.Boost() 🚀          Culture.Play() 🌏        Focus.Deep() 💭       
-╰────────────────────────╯ ╰────────────────────╯ ╰───────────────────────╯
+╭─ K-Pop [████████] 55% ─╮
+   System.Boost() 🚀     
+╰────────────────────────╯
+╭─ OPM [██████] 40% ─╮
+   Culture.Play() 🌏  
+╰────────────────────╯
+╭─ Lo-Fi [███████] 45% ─╮
+   Focus.Deep() 💭      
+╰───────────────────────╯
 
-<span style="color:#81A1C1">Runtime Metrics:</span> 247 Commits this month | Peak Coding: 2AM-4AM | Main Branch: Epic & Energetic
+<span style="color:#81A1C1">Runtime Metrics:</span>
+247 Commits this month
+Peak Coding: 2AM-4AM
+Main Branch: Epic & Energetic
 </code>
 </pre>
 </div>
