@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Lazy%20but%20Efficient&fontSize=50&fontAlignY=35&desc=Hardware%20|%20Software%20|%20Automation%20Enthusiast&descAlignY=52&animation=fadeIn&fontColor=ffffff&stroke=2E9EF7&strokeWidth=2)](https://github.com/RashiMrBRD)
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Developer%20Focused&fontSize=50&fontAlignY=35&desc=Hardware%20|%20Software%20|%20Automation%20Enthusiast&descAlignY=52&animation=fadeIn&fontColor=ffffff&stroke=2E9EF7&strokeWidth=2)](https://github.com/RashiMrBRD)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Caveat&weight=700&size=24&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Turning+Coffee+into+Code;Making+Hardware+Dance;Automating+the+Boring+Stuff;Building+Cool+Things;Finding+Elegant+Solutions)](https://github.com/RashiMrBRD)
 
@@ -209,54 +209,49 @@ const Brian: SystemEngineer = {
 
 <div align="center">
 
-```typescript
-interface DeveloperPlaylist {
-    current_mood: string;
-    genres: Genre[];
-    purpose: string;
-    productivity_boost: number;
-}
+<details open><summary>💻 Developer's Music Stack</summary>
 
-const myCodingPlaylist: DeveloperPlaylist = {
-    current_mood: "Focused & Energized",
-    genres: [
-        { type: "Anime_OST", impact: "Epic debugging sessions" },
-        { type: "K_Pop", impact: "High-energy deployment days" },
-        { type: "OPM", impact: "Cultural code crafting" },
-        { type: "Game_OST", impact: "Level up programming" },
-        { type: "Lo_Fi", impact: "Deep focus coding" }
-    ],
-    purpose: "Maximizing code quality and developer experience",
-    productivity_boost: 100
-};
-```
+<div align="center">
+<pre style="background:#2E3440;color:#ECEFF4;padding:32px;border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,0.3);font-family:'Caveat','Indie Flower',cursive;font-size:18px;line-height:1.6;margin:32px;text-shadow:0 0 1px rgba(236,239,244,0.4);min-width:800px;max-width:1200px;width:80%">
+<code>
+╭──────────────────────────── <span style="color:#88C0D0">DEV SESSION</span> ────────────────────────────╮
+<span style="color:#81A1C1">Now Playing:</span> 🎧 "Blue Bird" (Naruto) | <span style="color:#81A1C1">Mood:</span> Epic & Energetic | ⏱️ 3:45
+╰─────────────────────────────────────────────────────────────────────╯
 
-<details>
-<summary>🎧 Featured Tracks in Production</summary>
+<span style="color:#81A1C1">Coding Soundtracks:</span>
+╭─ Anime OST [███████████] 75% ─╮ ╭─ Game OST [████████████] 85% ─╮
+│  Debug Mode Activated! ⚡     │ │  Maximum Focus Engaged 🎯     │
+╰───────────────────────────────╯ ╰───────────────────────────────╯
 
-[![Anime OST](https://img.shields.io/badge/ANIME-Blue_Bird_(Naruto)-FF1B2D?style=flat-square&logo=youtube-music&logoColor=white)](https://open.spotify.com/track/4mGnpjhqgx4RUdsIJiURdo)
-[![K-Pop](https://img.shields.io/badge/KPOP-Spring_Day_(BTS)-00C298?style=flat-square&logo=youtube-music&logoColor=white)](https://open.spotify.com/track/2FxHqkp6FX9xmxrXzrDHh8)
-[![OPM](https://img.shields.io/badge/OPM-Ang_Huling_El_Bimbo-7D4698?style=flat-square&logo=youtube-music&logoColor=white)](https://open.spotify.com/track/3gBZUcNeVXCrp9Jy7HDvtE)
+<span style="color:#81A1C1">IDE Status:</span> [<span style="color:#A3BE8C">ACTIVE</span>] Productivity Mix v2.5 | 42 tracks | Focus: [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿] 100%
+
+╭──────────────────────────── <span style="color:#88C0D0">STACK PREFERENCES</span> ───────────────────────────╮
+ <span style="color:#81A1C1">Core Stack:</span> BTS, Eraserheads, YOASOBI | <span style="color:#81A1C1">Runtime:</span> High Energy & Melodic      
+╰──────────────────────────────────────────────────────────────────────────╯
+
+<span style="color:#81A1C1">Dependencies:</span>
+╭─ K-Pop [████████] 55% ─╮ ╭─ OPM [██████] 40% ─╮ ╭─ Lo-Fi [███████] 45% ─╮
+   System.Boost() 🚀          Culture.Play() 🌏        Focus.Deep() 💭       
+╰────────────────────────╯ ╰────────────────────╯ ╰───────────────────────╯
+
+<span style="color:#81A1C1">Runtime Metrics:</span> 247 Commits this month | Peak Coding: 2AM-4AM | Main Branch: Epic & Energetic
+</code>
+</pre>
+</div>
 
 </details>
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=github" alt="Mood"/>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Focus-Maximum-blue?style=for-the-badge&logo=github" alt="Focus"/>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Status-Coding-red?style=for-the-badge&logo=github" alt="Status"/>
-      </td>
-    </tr>
-  </table>
+  <a href="https://open.spotify.com/user/briandondriano2625">
+    <img src="https://img.shields.io/badge/Spotify-Developer_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
+  </a>
 </div>
 
-[![Spotify Profile](https://img.shields.io/badge/Spotify-Developer_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/briandondriano2625)
+<div>
+  <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
+  <img src="https://img.shields.io/badge/Now_Playing-Blue_Bird-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Now Playing"/>
+  <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
+</div>
 
 </div>
 
