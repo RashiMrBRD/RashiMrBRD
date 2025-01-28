@@ -4,6 +4,7 @@ import re
 import os
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import quote
 
 def get_repo_root():
     """Get the repository root directory."""
@@ -41,6 +42,14 @@ def get_random_song(songs):
     song = random.choice(songs[genre])
     return song['title'], song['artist'], genre
 
+def create_badge_url(title, artist):
+    """Create a properly encoded badge URL."""
+    # Replace spaces with underscores in title and artist
+    song_text = f"{title}-{artist}".replace(' ', '_')
+    # URL encode the song text to handle special characters
+    encoded_text = quote(song_text)
+    return f'<img src="https://img.shields.io/badge/Now_Playing-{encoded_text}-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Now Playing: {title} by {artist}"/>'
+
 def update_badge(title, artist):
     """Update the Now Playing badge in the README."""
     repo_root = get_repo_root()
@@ -57,12 +66,11 @@ def update_badge(title, artist):
         with open(readme_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # Create new badge URL
-        song_text = f"{title}-{artist}".replace(' ', '_')
-        new_badge = f'<img src="https://img.shields.io/badge/Now_Playing-{song_text}-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Now Playing"/>'
+        # Create new badge with properly encoded URL
+        new_badge = create_badge_url(title, artist)
         
         # Check if badge already exists
-        pattern = r'<img src="https://img\.shields\.io/badge/Now_Playing-[^"]*" alt="Now Playing"/>'
+        pattern = r'<img src="https://img\.shields\.io/badge/Now_Playing-[^"]*" alt="Now Playing[^"]*"/>'
         if re.search(pattern, content):
             # Update existing badge
             updated_content = re.sub(pattern, new_badge, content)
