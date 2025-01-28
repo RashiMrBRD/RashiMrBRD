@@ -44,11 +44,15 @@ def get_random_song(songs):
 
 def create_badge_url(title, artist):
     """Create a properly encoded badge URL."""
-    # Replace spaces with underscores in title and artist
-    song_text = f"{title}-{artist}".replace(' ', '_')
-    # URL encode the song text to handle special characters
-    encoded_text = quote(song_text)
-    return f'<img src="https://img.shields.io/badge/Now_Playing-{encoded_text}-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Now Playing: {title} by {artist}"/>'
+    # Create the label text
+    song_text = f"{title} by {artist}"
+    
+    # URL encode each component separately
+    label = quote("Now Playing")
+    message = quote(song_text)
+    
+    # Create the badge URL with proper parameter separation
+    return f'<img src="https://img.shields.io/badge/{label}-{message}-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="{song_text}"/>'
 
 def update_badge(title, artist):
     """Update the Now Playing badge in the README."""
