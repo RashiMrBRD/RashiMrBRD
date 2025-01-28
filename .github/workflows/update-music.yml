@@ -13,23 +13,31 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 1
+          path: repo
       
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
+      - name: Copy files to workspace
+        run: |
+          cp -r repo/* $GITHUB_WORKSPACE/
+          rm -rf repo
+
       - name: Debug Directory Structure
         run: |
+          echo "Current directory:"
           pwd
+          echo "Files in current directory:"
           ls -la
-          echo "Repository root:"
-          ls -la $GITHUB_WORKSPACE
-          echo "Scripts directory:"
-          ls -la $GITHUB_WORKSPACE/.github/scripts/
+          echo "Content of profile.md:"
+          cat profile.md || echo "profile.md not found"
+          echo "Content of songs.json:"
+          cat songs.json || echo "songs.json not found"
 
       - name: Update Now Playing
-        run: python $GITHUB_WORKSPACE/.github/scripts/update_music.py
+        run: python .github/scripts/update_music.py
         
       - name: Commit and push if changed
         run: |
