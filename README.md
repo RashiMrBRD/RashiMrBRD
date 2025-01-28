@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Brian (@RashiMrBRD)
 
+<img src="https://img.shields.io/badge/Now%20Playing-Ang%20Huling%20El%20Bimbo%20by%20Eraserheads-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Ang Huling El Bimbo by Eraserheads"/>
+
 <img src="https://img.shields.io/badge/Now%20Playing-With%20A%20Smile%20by%20Eraserheads-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="With A Smile by Eraserheads"/>
 
 <img src="https://img.shields.io/badge/Now%20Playing-Alapaap%20by%20Eraserheads-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Alapaap by Eraserheads"/>
