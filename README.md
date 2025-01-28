@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Brian (@RashiMrBRD)
 
+<img src="https://img.shields.io/badge/Now%20Playing-Boy%20With%20Luv%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Boy With Luv by BTS"/>
+
 <img src="https://img.shields.io/badge/Now%20Playing-Butter%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Butter by BTS"/>
 
 <img src="https://img.shields.io/badge/Now%20Playing-Butter%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Butter by BTS"/>
