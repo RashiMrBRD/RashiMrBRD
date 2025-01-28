@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Brian (@RashiMrBRD)
 
+<img src="https://img.shields.io/badge/Now%20Playing-Butter%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Butter by BTS"/>
+
 <div align="center">
 
 [![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Lazy%20but%20Efficient&fontSize=50&fontAlignY=35&desc=Hardware%20|%20Software%20|%20Automation%20Enthusiast&descAlignY=52&animation=fadeIn&fontColor=ffffff&stroke=2E9EF7&strokeWidth=2)](https://github.com/RashiMrBRD)
