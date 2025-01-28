@@ -249,7 +249,7 @@ const Brian: SystemEngineer = {
 
 <div>
   <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
-  <img src="https://img.shields.io/badge/Now_Playing-Blue_Bird-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Now Playing"/>
+  <img src="https://img.shields.io/badge/Now_Playing-Permission_to_Dance-BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Now Playing"/>
   <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
 </div>
 
