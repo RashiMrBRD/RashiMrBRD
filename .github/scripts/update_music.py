@@ -7,7 +7,10 @@ from pathlib import Path
 
 def load_songs():
     # Get the root directory of the repository
-    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    if 'GITHUB_WORKSPACE' in os.environ:
+        repo_root = os.environ['GITHUB_WORKSPACE']
+    else:
+        repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     songs_path = os.path.join(repo_root, 'songs.json')
     
     with open(songs_path, 'r', encoding='utf-8') as f:
@@ -29,7 +32,10 @@ def get_random_song(songs):
 
 def update_badge(title, artist):
     # Get the root directory of the repository
-    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    if 'GITHUB_WORKSPACE' in os.environ:
+        repo_root = os.environ['GITHUB_WORKSPACE']
+    else:
+        repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     profile_path = os.path.join(repo_root, 'profile.md')
     
     try:
