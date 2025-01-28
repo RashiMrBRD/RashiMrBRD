@@ -1,0 +1,49 @@
+name: Daily Activity Update
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Runs every 4 hours
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+        
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Update Activity
+        run: python .github/scripts/update_activity.py
+        
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'GitHub Activity Bot'
+          git config --global user.email 'action@github.com'
+          
+          # Stage all files in the data directory
+          git add data/
+          
+          # Create commit with detailed message
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Get number of files changed
+            files_changed=$(git diff --staged --name-only | wc -l)
+            
+            # Create commit message with stats
+            commit_msg="Update activity: $files_changed files"
+            if [ -f "data/activity_summary.json" ]; then
+              total=$(jq .total_contributions data/activity_summary.json)
+              commit_msg="$commit_msg (Total: $total)"
+            fi
+            
+            git commit -m "$commit_msg"
+            git push
+          fi
