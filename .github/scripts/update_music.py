@@ -42,38 +42,46 @@ def get_random_song(songs):
     return song['title'], song['artist'], genre
 
 def update_badge(title, artist):
-    """Update the Now Playing badge in the profile."""
+    """Update the Now Playing badge in the README."""
     repo_root = get_repo_root()
-    profile_path = os.path.join(repo_root, 'profile.md')
-    print(f"Looking for profile.md at: {profile_path}")
+    readme_path = os.path.join(repo_root, 'README.md')
+    print(f"Looking for README.md at: {readme_path}")
     
     try:
-        if not os.path.exists(profile_path):
-            print(f"Error: profile.md not found at {profile_path}")
+        if not os.path.exists(readme_path):
+            print(f"Error: README.md not found at {readme_path}")
             print("Current directory contents:")
             print(os.listdir(repo_root))
-            raise FileNotFoundError(f"profile.md not found at {profile_path}")
+            raise FileNotFoundError(f"README.md not found at {readme_path}")
 
-        with open(profile_path, 'r', encoding='utf-8') as f:
+        with open(readme_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
         # Create new badge URL
         song_text = f"{title}-{artist}".replace(' ', '_')
         new_badge = f'<img src="https://img.shields.io/badge/Now_Playing-{song_text}-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Now Playing"/>'
         
-        # Update the badge in the profile
+        # Check if badge already exists
         pattern = r'<img src="https://img\.shields\.io/badge/Now_Playing-[^"]*" alt="Now Playing"/>'
-        updated_content = re.sub(pattern, new_badge, content)
+        if re.search(pattern, content):
+            # Update existing badge
+            updated_content = re.sub(pattern, new_badge, content)
+        else:
+            # Add badge after the first heading
+            heading_pattern = r'^#[^#\n]*\n'
+            match = re.search(heading_pattern, content)
+            if match:
+                insert_pos = match.end()
+                updated_content = content[:insert_pos] + f"\n{new_badge}\n" + content[insert_pos:]
+            else:
+                # If no heading found, add at the beginning
+                updated_content = f"{new_badge}\n\n{content}"
         
-        # Update the "Now Playing" section in the ASCII art
-        now_playing_pattern = r'(Now Playing:</span> 🎧 ")[^"]*(")'
-        updated_content = re.sub(now_playing_pattern, f'\\1{title} ({artist})\\2', updated_content)
-        
-        with open(profile_path, 'w', encoding='utf-8') as f:
+        with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(updated_content)
-        print(f"Successfully updated profile with song: {title} by {artist}")
+        print(f"Successfully updated README with song: {title} by {artist}")
     except Exception as e:
-        print(f"Error updating profile: {str(e)}")
+        print(f"Error updating README: {str(e)}")
         raise
 
 def main():
