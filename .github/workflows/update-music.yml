@@ -8,36 +8,46 @@ on:
 jobs:
   update-badge:
     runs-on: ubuntu-latest
+    env:
+      REPO_NAME: RashiMrBRD
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 1
-          path: repo
+          repository: RashiMrBRD/RashiMrBRD
       
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
-      - name: Copy files to workspace
+      - name: Debug Environment
         run: |
-          cp -r repo/* $GITHUB_WORKSPACE/
-          rm -rf repo
-
-      - name: Debug Directory Structure
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Files in current directory:"
-          ls -la
-          echo "Content of profile.md:"
-          cat profile.md || echo "profile.md not found"
-          echo "Content of songs.json:"
-          cat songs.json || echo "songs.json not found"
+          echo "Environment variables:"
+          echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+          echo "PWD: $(pwd)"
+          
+          echo "\nDirectory structure:"
+          tree $GITHUB_WORKSPACE || ls -R $GITHUB_WORKSPACE
+          
+          echo "\nChecking file permissions:"
+          ls -la $GITHUB_WORKSPACE
+          ls -la $GITHUB_WORKSPACE/.github/scripts/ || echo "Scripts directory not found"
+          
+          echo "\nChecking Python environment:"
+          which python
+          python --version
 
       - name: Update Now Playing
-        run: python .github/scripts/update_music.py
+        run: |
+          # Print current directory and files for debugging
+          pwd
+          ls -la
+          
+          # Run the script
+          python .github/scripts/update_music.py
         
       - name: Commit and push if changed
         run: |
