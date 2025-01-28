@@ -5,19 +5,30 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-def load_songs():
-    # Get the root directory of the repository
+def get_repo_root():
+    """Get the repository root directory."""
     if 'GITHUB_WORKSPACE' in os.environ:
-        repo_root = os.environ['GITHUB_WORKSPACE']
-    else:
-        repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        return os.environ['GITHUB_WORKSPACE']
+    return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+def load_songs():
+    """Load songs from the songs.json file."""
+    repo_root = get_repo_root()
     songs_path = os.path.join(repo_root, 'songs.json')
+    print(f"Looking for songs.json at: {songs_path}")
     
-    with open(songs_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    try:
+        with open(songs_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"Error: songs.json not found at {songs_path}")
+        raise
+    except json.JSONDecodeError:
+        print(f"Error: Invalid JSON format in {songs_path}")
+        raise
 
 def get_random_song(songs):
-    # Get current hour to determine genre
+    """Get a random song based on the current hour."""
     hour = datetime.now().hour
     
     if hour >= 0 and hour < 8:  # Midnight to 8AM: Lo-fi/Anime
@@ -31,14 +42,18 @@ def get_random_song(songs):
     return song['title'], song['artist'], genre
 
 def update_badge(title, artist):
-    # Get the root directory of the repository
-    if 'GITHUB_WORKSPACE' in os.environ:
-        repo_root = os.environ['GITHUB_WORKSPACE']
-    else:
-        repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    """Update the Now Playing badge in the profile."""
+    repo_root = get_repo_root()
     profile_path = os.path.join(repo_root, 'profile.md')
+    print(f"Looking for profile.md at: {profile_path}")
     
     try:
+        if not os.path.exists(profile_path):
+            print(f"Error: profile.md not found at {profile_path}")
+            print("Current directory contents:")
+            print(os.listdir(repo_root))
+            raise FileNotFoundError(f"profile.md not found at {profile_path}")
+
         with open(profile_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
