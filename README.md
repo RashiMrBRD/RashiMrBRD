@@ -31,72 +31,88 @@
 
 </div>
 
-## About Me 🚀
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> About Me
 
-```typescript
-interface SystemEngineer {
-    currentRole: string;
-    background: {
-        hardware: string[];
-        software: string[];
-        integration: string[];
-    };
-    expertise: {
-        hardware: string[];
-        software: string[];
-        devops: string[];
-    };
-    achievements: string[];
-    seeking: string;
-}
+> 🎓 Computer Engineering Student & Full-Stack System Engineer passionate about hardware-software integration
 
-const Brian: SystemEngineer = {
-    currentRole: "Computer Engineering Student & Full-Stack System Engineer",
-    background: {
-        hardware: [
-            "Computer Hardware Technician",
-            "System Builder & Optimizer",
-            "Hardware Diagnostics Specialist"
-        ],
-        software: [
-            "System Administrator",
-            "Infrastructure Engineer",
-            "DevOps Practitioner"
-        ],
-        integration: [
-            "Hardware-Software Integration",
-            "System Performance Optimization",
-            "Custom Build Solutions"
-        ]
-    },
-    expertise: {
-        hardware: [
-            "Computer System Architecture",
-            "Hardware Troubleshooting",
-            "Performance Optimization",
-            "Custom PC Building"
-        ],
-        software: [
-            "Infrastructure as Code (IaC)",
-            "Container Orchestration",
-            "System Programming",
-            "Automation Development"
-        ],
-        devops: [
-            "CI/CD Pipeline Design",
-            "Container Management",
-            "Cloud Infrastructure",
-            "Monitoring Solutions"
-        ]
-    },
-    achievements: [
-        "Designed and implemented custom hardware-software solutions",
-        "Optimized system performance through hardware-software integration",
-        "Developed automated hardware diagnostic tools",
-        "Created containerized applications for hardware management"
-    ],
-    seeking: "Full-Stack System Engineer position to leverage my unique expertise in hardware-software integration, system optimization, and modern DevOps practices"
-};
+### 🛠️ Technical Background
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+#### Hardware
+```
+🔧 Computer Hardware Tech
+🖥️ System Builder
+🔍 Diagnostics Specialist
+```
+
+</td>
+<td width="33%" align="center">
+
+#### Software
+```
+👨‍💻 System Administrator
+🏗️ Infrastructure Engineer
+⚡ DevOps Practitioner
+```
+
+</td>
+<td width="33%" align="center">
+
+#### Integration
+```
+🔄 HW-SW Integration
+⚡ Performance Optimizer
+🛠️ Custom Solutions
+```
+
+</td>
+</tr>
+</table>
+
+### 💡 Core Expertise
+
+<details>
+<summary>🖥️ Hardware Engineering</summary>
+
+- System Architecture Design
+- Advanced Troubleshooting
+- Performance Optimization
+- Custom PC Building & Testing
+</details>
+
+<details>
+<summary>💻 Software Development</summary>
+
+- Infrastructure as Code (IaC)
+- Container Orchestration
+- System Programming
+- Automation Development
+</details>
+
+<details>
+<summary>🚀 DevOps Practices</summary>
+
+- CI/CD Pipeline Design
+- Container Management
+- Cloud Infrastructure
+- Monitoring Solutions
+</details>
+
+### 🏆 Key Achievements
+
+- 🎯 Designed and implemented custom hardware-software solutions
+- ⚡ Optimized system performance through hardware-software integration
+- 🔧 Developed automated hardware diagnostic tools
+- 📦 Created containerized applications for hardware management
+
+### 🎯 Career Goal
+```diff
++ Seeking: Full-Stack System Engineer position
+! Focus: Hardware-software integration & System optimization
+# Skills: Modern DevOps practices & Custom solutions
 ```
 
 <div align="center">
