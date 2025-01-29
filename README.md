@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Brian (@RashiMrBRD)
 
+<img src="https://img.shields.io/badge/Now%20Playing-Unravel%20by%20Tokyo%20Ghoul-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Unravel by Tokyo Ghoul"/>
+
 <img src="https://img.shields.io/badge/Now%20Playing-Again%20by%20Fullmetal%20Alchemist-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Again by Fullmetal Alchemist"/>
 
 <img src="https://img.shields.io/badge/Now%20Playing-Unravel%20by%20Tokyo%20Ghoul-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Unravel by Tokyo Ghoul"/>
