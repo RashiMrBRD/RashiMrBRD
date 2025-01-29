@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Brian (@RashiMrBRD)
 
+<img src="https://img.shields.io/badge/Now%20Playing-Unravel%20by%20Tokyo%20Ghoul-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Unravel by Tokyo Ghoul"/>
+
 <img src="https://img.shields.io/badge/Now%20Playing-Blue%20Bird%20by%20Naruto%20Shippuden-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Blue Bird by Naruto Shippuden"/>
 
 <img src="https://img.shields.io/badge/Now%20Playing-Gurenge%20by%20Demon%20Slayer-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Gurenge by Demon Slayer"/>
