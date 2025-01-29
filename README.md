@@ -223,7 +223,7 @@ const Brian: SystemEngineer = {
 │  Perfect for Debug Sessions!   │ │  Maximum Focus Mode         │
 ╰───────────────────────────────╯ ╰───────────────────────────────╯
 
-<span style="color:#81A1C1">Current Coding Session:</span> [<span style="color:#A3BE8C">ACTIVE</span>] Productivity Mix v2.5 | 42 tracks | Mood: [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿] 100%
+<span style="color:#81A1C1">Current Coding Session:</span> [<span style="color:#A3BE8C">ACTIVE</span>] Productivity Mix v2.5 | 42 tracks | Mood: [⣿⣿⣿⣿⣿⣿⣿⣿⣿] 100%
 
 ╭──────────────────────────── <span style="color:#88C0D0">Music Preferences</span> ───────────────────────────╮
 │ <span style="color:#81A1C1">Favorite Artists:</span> BTS, Eraserheads, YOASOBI | <span style="color:#81A1C1">Style:</span> High Energy & Melodic   │
