@@ -265,7 +265,7 @@
 
 <div>
   <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
-  <img src="https://img.shields.io/badge/Now%20Playing-Black%20Catcher%20by%20Black%20Clover-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Black Catcher by Black Clover"/>
+  <img src="https://img.shields.io/badge/Now%20Playing-Butter%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Butter by BTS"/>
   <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
 </div>
 
