@@ -265,7 +265,7 @@
 
 <div>
   <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
-  <img src="https://img.shields.io/badge/Now%20Playing-Blood%20Sweat%20%26%20Tears%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Blood Sweat & Tears by BTS"/>
+  <img src="https://img.shields.io/badge/Now%20Playing-DNA%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="DNA by BTS"/>
   <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
 </div>
 
