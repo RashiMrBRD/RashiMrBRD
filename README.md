@@ -265,7 +265,7 @@
 
 <div>
   <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
-  <img src="https://img.shields.io/badge/Now%20Playing-The%20Hero%20by%20One%20Punch%20Man-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="The Hero by One Punch Man"/>
+  <img src="https://img.shields.io/badge/Now%20Playing-Blue%20Bird%20by%20Naruto%20Shippuden-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Blue Bird by Naruto Shippuden"/>
   <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
 </div>
 
