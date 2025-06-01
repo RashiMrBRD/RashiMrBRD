@@ -265,7 +265,7 @@
 
 <div>
   <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
-  <img src="https://img.shields.io/badge/Now%20Playing-A%20Cruel%20Angel's%20Thesis%20by%20Neon%20Genesis%20Evangelion-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="A Cruel Angel's Thesis by Neon Genesis Evangelion"/>
+  <img src="https://img.shields.io/badge/Now%20Playing-Again%20by%20Fullmetal%20Alchemist:%20Brotherhood-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Again by Fullmetal Alchemist: Brotherhood"/>
   <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
 </div>
 
