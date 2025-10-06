@@ -265,7 +265,7 @@
 
 <div>
   <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
-  <img src="https://img.shields.io/badge/Now%20Playing-Life%20Goes%20On%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Life Goes On by BTS"/>
+  <img src="https://img.shields.io/badge/Now%20Playing-Permission%20to%20Dance%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Permission to Dance by BTS"/>
   <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
 </div>
 
