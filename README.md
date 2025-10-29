@@ -77,9 +77,53 @@ I’m a Computer Engineering student who’s passionate about hardware-software 
 
 ## 🎵 Developer Soundtrack
 
-I code to high-energy music—mostly anime/game OSTs, K-pop (BTS), OPM (Eraserheads), and lo-fi. My current vibe: **“Blue Bird” (Naruto)**.
+<div align="center">
 
-[![Spotify](https://img.shields.io/badge/Spotify-Developer_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/briandondriano2625)
+<details open><summary>🎵 My Music Vibes</summary>
+
+<div align="center">
+<pre style="background:#2E3440;color:#ECEFF4;padding:32px;border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,0.3);font-family:'Caveat','Indie Flower',cursive;font-size:18px;line-height:1.6;margin:32px;text-shadow:0 0 1px rgba(236,239,244,0.4);min-width:800px;max-width:1200px;width:80%">
+<code>
+╭──────────────────────────── <span style="color:#88C0D0">Current Session</span> ────────────────────────────╮
+│ <span style="color:#81A1C1">Now Playing:</span> 🎧 "Blue Bird" (Naruto) | <span style="color:#81A1C1">Mood:</span> Epic & Energetic | ⏱️ 3:45  │
+╰──────────────────────────────────────────────────────────────────────────╯
+
+<span style="color:#81A1C1">Top Active Genres:</span>
+╭─ Anime OST [███████████] 75% ─╮ ╭─ Game OST [████████████] 85% ─╮
+│  Perfect for Debug Sessions!   │ │  Maximum Focus Mode         │
+╰───────────────────────────────╯ ╰───────────────────────────────╯
+
+<span style="color:#81A1C1">Current Coding Session:</span> [<span style="color:#A3BE8C">ACTIVE</span>] Productivity Mix v2.5 | 42 tracks | Mood: [⣿⣿⣿⣿⣿⣿⣿⣿⣿] 100%
+
+╭──────────────────────────── <span style="color:#88C0D0">Music Preferences</span> ───────────────────────────╮
+│ <span style="color:#81A1C1">Favorite Artists:</span> BTS, Eraserheads, YOASOBI | <span style="color:#81A1C1">Style:</span> High Energy & Melodic   │
+╰──────────────────────────────────────────────────────────────────────────╯
+
+<span style="color:#81A1C1">Genre Breakdown:</span>
+╭─ K-Pop [████████] 55% ─╮ ╭─ OPM [██████] 40% ─╮ ╭─ Lo-Fi [███████] 45% ─╮
+│  Energy Boost! 🚀      │ │  Cultural Vibes 🌏  │ │  Deep Focus 💭        │
+╰────────────────────────╯ ╰───────────────────╯ ╰────────────────────────╯
+
+<span style="color:#81A1C1">Playlist Stats:</span> 247 Plays this month | Fav Mood: Epic & Energetic
+</code>
+</pre>
+</div>
+
+</details>
+
+<div align="center">
+  <a href="https://open.spotify.com/user/briandondriano2625">
+    <img src="https://img.shields.io/badge/Spotify-Developer_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
+  </a>
+</div>
+
+<div>
+  <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
+  <img src="https://img.shields.io/badge/Now%20Playing-Black%20Catcher%20by%20Black%20Clover-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Black Catcher by Black Clover"/>
+  <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
+</div>
+
+</div>
 
 ---
 
