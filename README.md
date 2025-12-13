@@ -10,7 +10,6 @@
 [![Followers](https://img.shields.io/github/followers/RashiMrBRD?style=for-the-badge&logo=github&label=Followers)](https://github.com/RashiMrBRD?tab=followers)
 
 [![Views](https://komarev.com/ghpvc/?username=RashiMrBRD&style=for-the-badge&color=2E9EF7)]()
-[![Status](https://img.shields.io/badge/Status-Open_to_Work-2E9EF7?style=for-the-badge&logo=github&logoColor=white)]()
 
 [![Email](https://img.shields.io/badge/Email-brian@rashlink.eu.org-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brian@rashlink.eu.org)
 
