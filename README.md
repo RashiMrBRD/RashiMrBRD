@@ -7,10 +7,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Caveat&weight=700&size=24&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Turning+Coffee+into+Code;Making+Hardware+Dance;Automating+the+Boring+Stuff;Building+Cool+Things;Finding+Elegant+Solutions)](https://github.com/RashiMrBRD)
 
 [![Open Source](https://img.shields.io/badge/Open_Source-Contributor-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RashiMrBRD?tab=repositories)
-[![Followers](https://img.shields.io/github/followers/RashiMrBRD?style=for-the-badge&logo=github&label=Followers)](https://github.com/RashiMrBRD?tab=followers)
-
-[![Views](https://komarev.com/ghpvc/?username=RashiMrBRD&style=for-the-badge&color=2E9EF7)]()
-
+[![Followers](https://img.shields.io/github/followers/RashiMrBRD?style=for-the-badge&logo=github&label=Followers)](https://github.com/RashiMrBRD?tab=followers)[![Views](https://komarev.com/ghpvc/?username=RashiMrBRD&style=for-the-badge&color=2E9EF7)]()
 [![Email](https://img.shields.io/badge/Email-brian@rashlink.eu.org-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brian@rashlink.eu.org)
 
 </div>
