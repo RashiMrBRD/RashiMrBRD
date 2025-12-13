@@ -6,7 +6,6 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Caveat&weight=700&size=24&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Turning+Coffee+into+Code;Making+Hardware+Dance;Automating+the+Boring+Stuff;Building+Cool+Things;Finding+Elegant+Solutions)](https://github.com/RashiMrBRD)
 
-[![Experience](https://img.shields.io/badge/Experience-3+_Years-orange?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RashiMrBRD)
 [![Open Source](https://img.shields.io/badge/Open_Source-Contributor-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RashiMrBRD?tab=repositories)
 [![Followers](https://img.shields.io/github/followers/RashiMrBRD?style=for-the-badge&logo=github&label=Followers)](https://github.com/RashiMrBRD?tab=followers)
 
@@ -16,10 +15,6 @@
 [![Email](https://img.shields.io/badge/Email-brian@rashlink.eu.org-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brian@rashlink.eu.org)
 
 </div>
-
-## About Me
-
-I’m a Computer Engineering student who’s passionate about hardware-software integration. While I enjoy building systems from the ground up, I focus on making them efficient, maintainable, and purpose-driven.
 
 ### Core Focus Areas
 
@@ -65,16 +60,6 @@ I’m a Computer Engineering student who’s passionate about hardware-software 
 
 ---
 
-
-## 🎯 What I’m Doing Now
-
-- Building automation tools to reduce repetitive tasks  
-- Deepening my Kubernetes and cloud infrastructure knowledge  
-- Open to DevOps collaborations—feel free to reach out!  
-- Happy to discuss Linux, shell scripting, or system tuning  
-
----
-
 ## 🎵 Developer Soundtrack
 
 <div align="center">
@@ -99,7 +84,7 @@ I’m a Computer Engineering student who’s passionate about hardware-software 
 
 <div>
   <img src="https://img.shields.io/badge/Mood-Productive-success?style=for-the-badge&logo=spotify&logoColor=white" alt="Mood"/>
-  <img src="https://img.shields.io/badge/Now%20Playing-Unravel%20by%20Tokyo%20Ghoul-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Unravel by Tokyo Ghoul"/>
+  <img src="https://img.shields.io/badge/Now%20Playing-Spring%20Day%20by%20BTS-FF69B4?style=for-the-badge&logo=youtube-music&logoColor=white" alt="Spring Day by BTS"/>
   <img src="https://img.shields.io/badge/Volume-100%25-blue?style=for-the-badge&logo=sound&logoColor=white" alt="Volume"/>
 </div>
 
